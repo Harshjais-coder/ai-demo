@@ -7,7 +7,7 @@ public class UserService {
 
         if (!email.contains("@"))
             return "invalid";
-
+        else ""
         return "success";
     }
 }
